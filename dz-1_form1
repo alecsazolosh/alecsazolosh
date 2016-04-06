@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form1</title>
+</head>
+<body>
+<table align="center" width="220" border="2" bgcolor="#7fffd4">
+    <tr height="200">
+        <td>
+ <form name="f1" method="post" action="enter_data.php">
+     <input name="vhod" align="center" type="hidden" value="index.php"> Вход в систему <br>
+     <br>
+     <input name="link" type="hidden" value="index.php">
+     Логин:<br>
+     <input name="login" type="text" value=""> <br>
+     Пароль:<br>
+     <input name="pd" type="password" value=""> <br>
+     <input name="remember" type="checkbox" value="yes">Запомнить<br>
+    <a  href="form2.html">
+        <input id="but" name="enter" type="button" value="Вход">
+
+    </a>
+ </form>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
