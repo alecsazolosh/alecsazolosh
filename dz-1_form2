@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form2</title>
+</head>
+<body>
+<h1>Добро пожаловать на сайт компании</h1>
+<p>Выбрав интересующее Вас направление, Вы сможете получить <br>
+    информацию о предлагаемых нами товарах и услугах, а также <br>
+    воспользоваться услугами нашего интернет-магазина. Если Вы не нашли <br>
+    необходимую Вам информацию на нашем сайте, пожалуйста, сообщите <br>
+    нам. Наши специалисты помогут Вам найти оптимальное решение!</p>
+<form name="f2" action="comments.php" method="post">
+<p> <input name="autor" type="text" value="" size="30">
+    <small>E-mail</small>
+    </p>
+<p> <textarea name="comment" cols="50" rows="10"></textarea>
+    </p>
+<p> <input name="bt" type="button" value="Отправить">
+    </p>
+</form>
+</body>
+</html>
