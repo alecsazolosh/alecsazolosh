@@ -17,7 +17,7 @@
      Пароль:<br>
      <input name="pd" type="password" value=""> <br>
      <input name="remember" type="checkbox" value="yes">Запомнить<br>
-    <a  href="form2.html">
+    <a  href="dz1_form2.html">
         <input id="but" name="enter" type="button" value="Вход">
 
     </a>
